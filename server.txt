@@ -1,0 +1,7 @@
+export const api = new Api('https://gots.extrapay.ch');
+
+export const apiVersion = 'beta.0.0.0';
+
+export const backend = 'https://gots.extrapay.ch/';
+
+export const avatars = 'https://gots.extrapay.ch/assets/avatars/';

@@ -1,0 +1,61 @@
+{
+  "name": "front",
+  "version": "0.0.1",
+  "description": "Front end for Pastelle Talents",
+  "productName": "Pastelle Talents",
+  "author": "Fuzzybook <fabio@prada.ch>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.11",
+    "@vuelidate/core": "^2.0.0-alpha.44",
+    "@vuelidate/validators": "^2.0.0-alpha.31",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.8.0",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "monaco-editor": "^0.33.0",
+    "monaco-editor-webpack-plugin": "^7.0.1",
+    "pinia": "^2.0.11",
+    "quasar": "^2.11.9",
+    "v-money3": "^3.21.0",
+    "validator": "^13.7.0",
+    "vee-validate": "^4.6.7",
+    "vue": "^3.0.0",
+    "vue-advanced-cropper": "^2.8.3",
+    "vue-i18n": "^9.2.0-beta.35",
+    "vue-router": "^4.0.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@quasar/app-webpack": "^3.7.2",
+    "@types/leaflet": "1.5.7",
+    "@types/node": "^12.20.21",
+    "@types/validator": "^13.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.5.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
